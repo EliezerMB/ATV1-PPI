@@ -1,5 +1,6 @@
 import express from "express";
 const app = express();
+const host ="0.0.0.0";
 
 function pgInicial(Requisisao, Resposta ) {
     Resposta.send(`<h1> Tabuada </h1>  
@@ -78,7 +79,7 @@ app.get('/:tabuada', (req, res) => {
     }
 });
 
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-    console.log(`Servidor a correr em http://localhost:${PORT}`);
+const port = process.env.port || 3000;
+app.listen(port, () => {
+    console.log(`Servidor a correr em http://localhost:${port}`);
 });
