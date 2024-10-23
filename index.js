@@ -7,6 +7,7 @@ function pgInicial(Requisisao, Resposta ) {
                      <h2>Essa Pagina Vai Calcular a tabuada Do um ao 10 </h2>
                     <h3>Exemplo 'localhost:3000'/Numero desejado''</h3>
                     <h5>Obrigado por Usar meu Site ass: Eliezer ;-)</h5>
+                    <h5>Obrigado e Faça Bom Uso B-]</h5>
         `);
     };
     app.get("/",pgInicial);
